@@ -1,0 +1,2 @@
+# NativeScript Groceries Angular Template
+
