@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { Router }    from "@angular/router";
 
 //models
 import { User } from "../../shared/user/user";
@@ -18,7 +19,8 @@ export class LoginComponent {
 
   isLoggingIn: boolean = true;
 
-  constructor(private _userService: UserService) { 
+  constructor(private _userService: UserService,
+              private router:       Router) { 
     this.user = new User();
     this.user.email = "toussi69@gmail.com";
     this.user.password = "Speed1";
@@ -33,7 +35,7 @@ export class LoginComponent {
   }
 
   login() {
-    //todo 
+     
   }
 
   signUp() {

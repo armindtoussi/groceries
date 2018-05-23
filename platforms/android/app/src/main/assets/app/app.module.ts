@@ -10,7 +10,6 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 
 //app components
 import { AppComponent }   from "./app.component";
-import { LoginComponent } from "~/pages/login/login.component";
 
 import { routes, navigatableComponents } from "./app.routing";
 
@@ -24,7 +23,6 @@ import { routes, navigatableComponents } from "./app.routing";
   ],
   declarations: [
     AppComponent,
-    LoginComponent,
     ...navigatableComponents
   ],
   bootstrap: [AppComponent]

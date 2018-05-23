@@ -26,6 +26,22 @@ export class UserService {
         .catch(this.handleErrors);
     }
 
+    login(user: User): Observable<any> {
+        return this._http.post(
+            Config.apiUrl + "user/" + Config.appKey + "/login",
+            JSON.stringify({
+                username: user.email,
+                password: user.password
+            }),
+            { headers: this.getCommonHeaders() }
+        )
+        .map(response => response.json())
+        .do(data => {
+            Config.token = data._kmd.authtoken
+        })
+        .catch(this.handleErrors);
+    }
+
     getCommonHeaders(): Headers {
         let headers = new Headers();
         headers.append("Content-Type", "application/json");
