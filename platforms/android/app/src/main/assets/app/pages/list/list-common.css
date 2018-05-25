@@ -24,3 +24,10 @@ ListView {
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
+
+.delete-image {
+  background-color: black;
+  padding: 5;
+  height: 20;
+  margin-right: 8;
+}

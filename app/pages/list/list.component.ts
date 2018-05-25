@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from "@angular/core";
+import { Component, ElementRef, NgZone, OnInit, ViewChild } from "@angular/core";
 import { TextField } from "ui/text-field";
 
 import { Grocery } from "../../shared/grocery/grocery";
@@ -23,7 +23,8 @@ export class ListComponent implements OnInit {
   isLoading:  boolean = true;
   listLoaded: boolean = false;
 
-  constructor(private _groceryListService: GroceryListService) {}
+  constructor(private _groceryListService: GroceryListService,
+              private zone:                NgZone) {}
 
   ngOnInit():void {
     this.isLoading = true;
@@ -60,6 +61,17 @@ export class ListComponent implements OnInit {
           this.grocery = "";
         }
       )
+  }
+
+  delete(grocery: Grocery) {
+    this._groceryListService.delete(grocery.id)
+      .subscribe(() => {
+        // Running the array splice in a zone ensures that change detection gets triggered.
+        this.zone.run(() => {
+          let index = this.groceryList.indexOf(grocery);
+          this.groceryList.splice(index, 1);
+        });
+      });
   }
 
   share():void {
