@@ -78,6 +78,7 @@ D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\t
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\index.js
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
+D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\nativescript-social-share\social-share.js
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application\application.js
 D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\assets\app\tns_modules\tns-core-modules\application-settings\application-settings-common.js

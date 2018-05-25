@@ -4,6 +4,8 @@ import { TextField } from "ui/text-field";
 import { Grocery } from "../../shared/grocery/grocery";
 import { GroceryListService } from "../../shared/grocery/grocery-list.service";
 
+import * as SocialShare from "nativescript-social-share";
+
 @Component({
   selector: "list",
   moduleId: module.id,
@@ -23,7 +25,7 @@ export class ListComponent implements OnInit {
 
   constructor(private _groceryListService: GroceryListService) {}
 
-  ngOnInit() {
+  ngOnInit():void {
     this.isLoading = true;
     this._groceryListService.load()
       .subscribe(loadedGroceries => {
@@ -35,7 +37,7 @@ export class ListComponent implements OnInit {
       });
   }
 
-  add() {
+  add():void {
     if(this.grocery.trim() === "") {
       alert("Enter a grocery item");
       return;
@@ -59,4 +61,14 @@ export class ListComponent implements OnInit {
         }
       )
   }
+
+  share():void {
+    let listString = this.groceryList
+      .map(grocery => grocery.name)
+      .join(", ")
+      .trim();
+    SocialShare.shareText(listString);    
+  }
+
+  
 }

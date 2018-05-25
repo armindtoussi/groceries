@@ -1,15 +1,10 @@
 import { Component } from "@angular/core";
 
-@Component({
-  selector: "my-app",
-  template: 
-  `
-    <TextField hint="Email Address" keyboardType="email"
-      autocorrect="false" autocapitalizationType="none"></TextField>
-    <TextFIeld hint="Password" secure="true"></TextField>
 
-    <Button text="Sign in"></Button>
-    <Button text="Sign up for Groceries"></Button>
-  `
+@Component({
+  selector: "main",
+  template: "<page-router-outlet></page-router-outlet>"
 })
-export class AppComponent {}
+export class AppComponent {
+
+}

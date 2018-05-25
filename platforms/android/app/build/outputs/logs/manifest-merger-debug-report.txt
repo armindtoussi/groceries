@@ -10,6 +10,7 @@ MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\armin2\.gradle\ca
 MERGED from [com.android.support:transition:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8ed0fcee1241db8582c26d862f49243f\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\597e4db1684d7f0d4d4a388657ed0769\AndroidManifest.xml:17:1-31:12
 MERGED from [:nativescript-optimized:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript-optimized.aar\2c1f8b1ad8b1e327b6c3db841076f74a\AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:2:1-21:12
 MERGED from [:widgets-release:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\d2235d8a42700f932ff03d6a5d015927\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a1233623809bffe8d66a05b911051f26\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\b1f70f8e845cc3ea6dbdfd665b3ea565\AndroidManifest.xml:17:1-31:12
@@ -62,6 +63,8 @@ MERGED from [com.android.support:support-v4:25.3.1] C:\Users\armin2\.gradle\cach
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\597e4db1684d7f0d4d4a388657ed0769\AndroidManifest.xml:21:5-23:54
 MERGED from [:nativescript-optimized:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript-optimized.aar\2c1f8b1ad8b1e327b6c3db841076f74a\AndroidManifest.xml:7:5-9:41
 MERGED from [:nativescript-optimized:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript-optimized.aar\2c1f8b1ad8b1e327b6c3db841076f74a\AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:7:5-47
 MERGED from [:widgets-release:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\d2235d8a42700f932ff03d6a5d015927\AndroidManifest.xml:7:5-9:41
 MERGED from [:widgets-release:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\d2235d8a42700f932ff03d6a5d015927\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a1233623809bffe8d66a05b911051f26\AndroidManifest.xml:21:5-23:60
@@ -91,6 +94,7 @@ INJECTED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\mai
 	android:minSdkVersion
 		ADDED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
 		INJECTED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\AndroidManifest.xml
+		MERGED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\AndroidManifest.xml:14:3-29
 		INJECTED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from D:\DevelopmentProjects\TNS\Groceries\platforms\android\app\src\main\AndroidManifest.xml:17:2-76
@@ -114,6 +118,8 @@ MERGED from [com.android.support:transition:25.3.1] C:\Users\armin2\.gradle\cach
 MERGED from [com.android.support:transition:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\8ed0fcee1241db8582c26d862f49243f\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\597e4db1684d7f0d4d4a388657ed0769\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\597e4db1684d7f0d4d4a388657ed0769\AndroidManifest.xml:29:5-20
+MERGED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:9:5-19:19
+MERGED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:9:5-19:19
 MERGED from [:widgets-release:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\d2235d8a42700f932ff03d6a5d015927\AndroidManifest.xml:11:5-12:19
 MERGED from [:widgets-release:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\widgets-release.aar\d2235d8a42700f932ff03d6a5d015927\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\a1233623809bffe8d66a05b911051f26\AndroidManifest.xml:29:5-20
@@ -190,3 +196,19 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\armin2\.gradle\
 		ADDED from [com.android.support:design:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\60c7902fb14fefc9e584aa8d819d9c25\AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\60c7902fb14fefc9e584aa8d819d9c25\AndroidManifest.xml:26:9-47
+provider#android.support.v4.content.FileProvider
+ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:11:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:nativescript_social_share:] C:\Users\armin2\.gradle\caches\transforms-1\files-1.1\nativescript_social_share.aar\72bf0c25265bc2790e312fc84bd255ae\AndroidManifest.xml:16:17-67
